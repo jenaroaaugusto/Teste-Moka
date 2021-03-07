@@ -1,0 +1,950 @@
+[
+    {
+        "name": "New York",
+        "value": 8405837
+    },
+    {
+        "name": "Los Angeles",
+        "value": 3884307
+    },
+    {
+        "name": "Chicago",
+        "value": 2718782
+    },
+    {
+        "name": "Houston",
+        "value": 2195914
+    },
+    {
+        "name": "Philadelphia",
+        "value": 1553165
+    },
+    {
+        "name": "Phoenix",
+        "value": 1513367
+    },
+    {
+        "name": "San Antonio",
+        "value": 1409019
+    },
+    {
+        "name": "San Diego",
+        "value": 1355896
+    },
+    {
+        "name": "Dallas",
+        "value": 1257676
+    },
+    {
+        "name": "San Jose",
+        "value": 998537
+    },
+    {
+        "name": "Austin",
+        "value": 885400
+    },
+    {
+        "name": "Indianapolis",
+        "value": 843393
+    },
+    {
+        "name": "Jacksonville",
+        "value": 842583
+    },
+    {
+        "name": "San Francisco",
+        "value": 837442
+    },
+    {
+        "name": "Columbus",
+        "value": 822553
+    },
+    {
+        "name": "Charlotte",
+        "value": 792862
+    },
+    {
+        "name": "Fort Worth",
+        "value": 792727
+    },
+    {
+        "name": "Detroit",
+        "value": 688701
+    },
+    {
+        "name": "El Paso",
+        "value": 674433
+    },
+    {
+        "name": "Memphis",
+        "value": 653450
+    },
+    {
+        "name": "Seattle",
+        "value": 652405
+    },
+    {
+        "name": "Denver",
+        "value": 649495
+    },
+    {
+        "name": "Washington",
+        "value": 646449
+    },
+    {
+        "name": "Boston",
+        "value": 645966
+    },
+    {
+        "name": "Nashville-Davidson",
+        "value": 634464
+    },
+    {
+        "name": "Baltimore",
+        "value": 622104
+    },
+    {
+        "name": "Oklahoma name",
+        "value": 610613
+    },
+    {
+        "name": "Louisville/Jefferson County",
+        "value": 609893
+    },
+    {
+        "name": "Portland",
+        "value": 609456
+    },
+    {
+        "name": "Las Vegas",
+        "value": 603488
+    },
+    {
+        "name": "Milwaukee",
+        "value": 599164
+    },
+    {
+        "name": "Albuquerque",
+        "value": 556495
+    },
+    {
+        "name": "Tucson",
+        "value": 526116
+    },
+    {
+        "name": "Fresno",
+        "value": 509924
+    },
+    {
+        "name": "Sacramento",
+        "value": 479686
+    },
+    {
+        "name": "Long Beach",
+        "value": 469428
+    },
+    {
+        "name": "Kansas name",
+        "value": 467007
+    },
+    {
+        "name": "Mesa",
+        "value": 457587
+    },
+    {
+        "name": "Virginia Beach",
+        "value": 448479
+    },
+    {
+        "name": "Atlanta",
+        "value": 447841
+    },
+    {
+        "name": "Colorado Springs",
+        "value": 439886
+    },
+    {
+        "name": "Omaha",
+        "value": 434353
+    },
+    {
+        "name": "Raleigh",
+        "value": 431746
+    },
+    {
+        "name": "Miami",
+        "value": 417650
+    },
+    {
+        "name": "Oakland",
+        "value": 406253
+    },
+    {
+        "name": "Minneapolis",
+        "value": 400070
+    },
+    {
+        "name": "Tulsa",
+        "value": 398121
+    },
+    {
+        "name": "Cleveland",
+        "value": 390113
+    },
+    {
+        "name": "Wichita",
+        "value": 386552
+    },
+    {
+        "name": "Arlington",
+        "value": 379577
+    },
+    {
+        "name": "New Orleans",
+        "value": 378715
+    },
+    {
+        "name": "Bakersfield",
+        "value": 363630
+    },
+    {
+        "name": "Tampa",
+        "value": 352957
+    },
+    {
+        "name": "Honolulu",
+        "value": 347884
+    },
+    {
+        "name": "Aurora",
+        "value": 345803
+    },
+    {
+        "name": "Anaheim",
+        "value": 345012
+    },
+    {
+        "name": "Santa Ana",
+        "value": 334227
+    },
+    {
+        "name": "St. Louis",
+        "value": 318416
+    },
+    {
+        "name": "Riverside",
+        "value": 316619
+    },
+    {
+        "name": "Corpus Christi",
+        "value": 316381
+    },
+    {
+        "name": "Lexington-Fayette",
+        "value": 308428
+    },
+    {
+        "name": "Pittsburgh",
+        "value": 305841
+    },
+    {
+        "name": "Anchorage",
+        "value": 300950
+    },
+    {
+        "name": "Stockton",
+        "value": 298118
+    },
+    {
+        "name": "Cincinnati",
+        "value": 297517
+    },
+    {
+        "name": "St. Paul",
+        "value": 294873
+    },
+    {
+        "name": "Toledo",
+        "value": 282313
+    },
+    {
+        "name": "Greensboro",
+        "value": 279639
+    },
+    {
+        "name": "Newark",
+        "value": 278427
+    },
+    {
+        "name": "Plano",
+        "value": 274409
+    },
+    {
+        "name": "Henderson",
+        "value": 270811
+    },
+    {
+        "name": "Lincoln",
+        "value": 268738
+    },
+    {
+        "name": "Buffalo",
+        "value": 258959
+    },
+    {
+        "name": "Jersey name",
+        "value": 257342
+    },
+    {
+        "name": "Chula Vista",
+        "value": 256780
+    },
+    {
+        "name": "Fort Wayne",
+        "value": 256496
+    },
+    {
+        "name": "Orlando",
+        "value": 255483
+    },
+    {
+        "name": "St. Petersburg",
+        "value": 249688
+    },
+    {
+        "name": "Chandler",
+        "value": 249146
+    },
+    {
+        "name": "Laredo",
+        "value": 248142
+    },
+    {
+        "name": "Norfolk",
+        "value": 246139
+    },
+    {
+        "name": "Durham",
+        "value": 245475
+    },
+    {
+        "name": "Madison",
+        "value": 243344
+    },
+    {
+        "name": "Lubbock",
+        "value": 239538
+    },
+    {
+        "name": "Irvine",
+        "value": 236716
+    },
+    {
+        "name": "Winston-Salem",
+        "value": 236441
+    },
+    {
+        "name": "Glendale",
+        "value": 234632
+    },
+    {
+        "name": "Garland",
+        "value": 234566
+    },
+    {
+        "name": "Hialeah",
+        "value": 233394
+    },
+    {
+        "name": "Reno",
+        "value": 233294
+    },
+    {
+        "name": "Chesapeake",
+        "value": 230571
+    },
+    {
+        "name": "Gilbert",
+        "value": 229972
+    },
+    {
+        "name": "Baton Rouge",
+        "value": 229426
+    },
+    {
+        "name": "Irving",
+        "value": 228653
+    },
+    {
+        "name": "Scottsdale",
+        "value": 226918
+    },
+    {
+        "name": "North Las Vegas",
+        "value": 226877
+    },
+    {
+        "name": "Fremont",
+        "value": 224922
+    },
+    {
+        "name": "Boise name",
+        "value": 214237
+    },
+    {
+        "name": "Richmond",
+        "value": 214114
+    },
+    {
+        "name": "San Bernardino",
+        "value": 213708
+    },
+    {
+        "name": "Birmingham",
+        "value": 212113
+    },
+    {
+        "name": "Spokane",
+        "value": 210721
+    },
+    {
+        "name": "Rochester",
+        "value": 210358
+    },
+    {
+        "name": "Des Moines",
+        "value": 207510
+    },
+    {
+        "name": "Modesto",
+        "value": 204933
+    },
+    {
+        "name": "Fayetteville",
+        "value": 204408
+    },
+    {
+        "name": "Tacoma",
+        "value": 203446
+    },
+    {
+        "name": "Oxnard",
+        "value": 203007
+    },
+    {
+        "name": "Fontana",
+        "value": 203003
+    },
+    {
+        "name": "Columbus",
+        "value": 202824
+    },
+    {
+        "name": "Montgomery",
+        "value": 201332
+    },
+    {
+        "name": "Moreno Valley",
+        "value": 201175
+    },
+    {
+        "name": "Shreveport",
+        "value": 200327
+    },
+    {
+        "name": "Aurora",
+        "value": 199963
+    },
+    {
+        "name": "Yonkers",
+        "value": 199766
+    },
+    {
+        "name": "Akron",
+        "value": 198100
+    },
+    {
+        "name": "Huntington Beach",
+        "value": 197575
+    },
+    {
+        "name": "Little Rock",
+        "value": 197357
+    },
+    {
+        "name": "Augusta-Richmond County",
+        "value": 197350
+    },
+    {
+        "name": "Amarillo",
+        "value": 196429
+    },
+    {
+        "name": "Glendale",
+        "value": 196021
+    },
+    {
+        "name": "Mobile",
+        "value": 194899
+    },
+    {
+        "name": "Grand Rapids",
+        "value": 192294
+    },
+    {
+        "name": "Salt Lake name",
+        "value": 191180
+    },
+    {
+        "name": "Tallahassee",
+        "value": 186411
+    },
+    {
+        "name": "Huntsville",
+        "value": 186254
+    },
+    {
+        "name": "Grand Prairie",
+        "value": 183372
+    },
+    {
+        "name": "Knoxville",
+        "value": 183270
+    },
+    {
+        "name": "Worcester",
+        "value": 182544
+    },
+    {
+        "name": "Newport News",
+        "value": 182020
+    },
+    {
+        "name": "Brownsville",
+        "value": 181860
+    },
+    {
+        "name": "Overland Park",
+        "value": 181260
+    },
+    {
+        "name": "Santa Clarita",
+        "value": 179590
+    },
+    {
+        "name": "Providence",
+        "value": 177994
+    },
+    {
+        "name": "Garden Grove",
+        "value": 175140
+    },
+    {
+        "name": "Chattanooga",
+        "value": 173366
+    },
+    {
+        "name": "Oceanside",
+        "value": 172794
+    },
+    {
+        "name": "Jackson",
+        "value": 172638
+    },
+    {
+        "name": "Fort Lauderdale",
+        "value": 172389
+    },
+    {
+        "name": "Santa Rosa",
+        "value": 171990
+    },
+    {
+        "name": "Rancho Cucamonga",
+        "value": 171386
+    },
+    {
+        "name": "Port St. Lucie",
+        "value": 171016
+    },
+    {
+        "name": "Tempe",
+        "value": 168228
+    },
+    {
+        "name": "Ontario",
+        "value": 167500
+    },
+    {
+        "name": "Vancouver",
+        "value": 167405
+    },
+    {
+        "name": "Cape Coral",
+        "value": 165831
+    },
+    {
+        "name": "Sioux Falls",
+        "value": 164676
+    },
+    {
+        "name": "Springfield",
+        "value": 164122
+    },
+    {
+        "name": "Peoria",
+        "value": 162592
+    },
+    {
+        "name": "Pembroke Pines",
+        "value": 162329
+    },
+    {
+        "name": "Elk Grove",
+        "value": 161007
+    },
+    {
+        "name": "Salem",
+        "value": 160614
+    },
+    {
+        "name": "Lancaster",
+        "value": 159523
+    },
+    {
+        "name": "Corona",
+        "value": 159503
+    },
+    {
+        "name": "Eugene",
+        "value": 159190
+    },
+    {
+        "name": "Palmdale",
+        "value": 157161
+    },
+    {
+        "name": "Salinas",
+        "value": 155662
+    },
+    {
+        "name": "Springfield",
+        "value": 153703
+    },
+    {
+        "name": "Pasadena",
+        "value": 152735
+    },
+    {
+        "name": "Fort Collins",
+        "value": 152061
+    },
+    {
+        "name": "Hayward",
+        "value": 151574
+    },
+    {
+        "name": "Pomona",
+        "value": 151348
+    },
+    {
+        "name": "Cary",
+        "value": 151088
+    },
+    {
+        "name": "Rockford",
+        "value": 150251
+    },
+    {
+        "name": "Alexandria",
+        "value": 148892
+    },
+    {
+        "name": "Escondido",
+        "value": 148738
+    },
+    {
+        "name": "McKinney",
+        "value": 148559
+    },
+    {
+        "name": "Kansas name",
+        "value": 148483
+    },
+    {
+        "name": "Joliet",
+        "value": 147806
+    },
+    {
+        "name": "Sunnyvale",
+        "value": 147559
+    },
+    {
+        "name": "Torrance",
+        "value": 147478
+    },
+    {
+        "name": "Bridgeport",
+        "value": 147216
+    },
+    {
+        "name": "Lakewood",
+        "value": 147214
+    },
+    {
+        "name": "Hollywood",
+        "value": 146526
+    },
+    {
+        "name": "Paterson",
+        "value": 145948
+    },
+    {
+        "name": "Naperville",
+        "value": 144864
+    },
+    {
+        "name": "Syracuse",
+        "value": 144669
+    },
+    {
+        "name": "Mesquite",
+        "value": 143484
+    },
+    {
+        "name": "Dayton",
+        "value": 143355
+    },
+    {
+        "name": "Savannah",
+        "value": 142772
+    },
+    {
+        "name": "Clarksville",
+        "value": 142357
+    },
+    {
+        "name": "Orange",
+        "value": 139969
+    },
+    {
+        "name": "Pasadena",
+        "value": 139731
+    },
+    {
+        "name": "Fullerton",
+        "value": 138981
+    },
+    {
+        "name": "Killeen",
+        "value": 137147
+    },
+    {
+        "name": "Frisco",
+        "value": 136791
+    },
+    {
+        "name": "Hampton",
+        "value": 136699
+    },
+    {
+        "name": "McAllen",
+        "value": 136639
+    },
+    {
+        "name": "Warren",
+        "value": 134873
+    },
+    {
+        "name": "Bellevue",
+        "value": 133992
+    },
+    {
+        "name": "West Valley name",
+        "value": 133579
+    },
+    {
+        "name": "Columbia",
+        "value": 133358
+    },
+    {
+        "name": "Olathe",
+        "value": 131885
+    },
+    {
+        "name": "Sterling Heights",
+        "value": 131224
+    },
+    {
+        "name": "New Haven",
+        "value": 130660
+    },
+    {
+        "name": "Miramar",
+        "value": 130288
+    },
+    {
+        "name": "Waco",
+        "value": 129030
+    },
+    {
+        "name": "Thousand Oaks",
+        "value": 128731
+    },
+    {
+        "name": "Cedar Rapids",
+        "value": 128429
+    },
+    {
+        "name": "Charleston",
+        "value": 127999
+    },
+    {
+        "name": "Visalia",
+        "value": 127763
+    },
+    {
+        "name": "Topeka",
+        "value": 127679
+    },
+    {
+        "name": "Elizabeth",
+        "value": 127558
+    },
+    {
+        "name": "Gainesville",
+        "value": 127488
+    },
+    {
+        "name": "Thornton",
+        "value": 127359
+    },
+    {
+        "name": "Roseville",
+        "value": 127035
+    },
+    {
+        "name": "Carrollton",
+        "value": 126700
+    },
+    {
+        "name": "Coral Springs",
+        "value": 126604
+    },
+    {
+        "name": "Stamford",
+        "value": 126456
+    },
+    {
+        "name": "Simi Valley",
+        "value": 126181
+    },
+    {
+        "name": "Concord",
+        "value": 125880
+    },
+    {
+        "name": "Hartford",
+        "value": 125017
+    },
+    {
+        "name": "Kent",
+        "value": 124435
+    },
+    {
+        "name": "Lafayette",
+        "value": 124276
+    },
+    {
+        "name": "Midland",
+        "value": 123933
+    },
+    {
+        "name": "Surprise",
+        "value": 123546
+    },
+    {
+        "name": "Denton",
+        "value": 123099
+    },
+    {
+        "name": "Victorville",
+        "value": 121096
+    },
+    {
+        "name": "Evansville",
+        "value": 120310
+    },
+    {
+        "name": "Santa Clara",
+        "value": 120245
+    },
+    {
+        "name": "Abilene",
+        "value": 120099
+    },
+    {
+        "name": "Athens-Clarke County",
+        "value": 119980
+    },
+    {
+        "name": "Vallejo",
+        "value": 118837
+    },
+    {
+        "name": "Allentown",
+        "value": 118577
+    },
+    {
+        "name": "Norman",
+        "value": 118197
+    },
+    {
+        "name": "Beaumont",
+        "value": 117796
+    },
+    {
+        "name": "Independence",
+        "value": 117240
+    },
+    {
+        "name": "Murfreesboro",
+        "value": 117044
+    },
+    {
+        "name": "Ann Arbor",
+        "value": 117025
+    },
+    {
+        "name": "Springfield",
+        "value": 117006
+    },
+    {
+        "name": "Berkeley",
+        "value": 116768
+    },
+    {
+        "name": "Peoria",
+        "value": 116513
+    },
+    {
+        "name": "Provo",
+        "value": 116288
+    },
+    {
+        "name": "El Monte",
+        "value": 115708
+    },
+    {
+        "name": "Columbia",
+        "value": 115276
+    },
+    {
+        "name": "Lansing",
+        "value": 113972
+    },
+    {
+        "name": "Fargo",
+        "value": 113658
+    }
+]

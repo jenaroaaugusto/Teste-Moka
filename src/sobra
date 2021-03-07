@@ -1,0 +1,71 @@
+<header class="navbar navbar-dark sticky-top moka_color flex-md-nowrap p-0 shadow">
+    <nav class="navbar navbar-expand-lg moka_color">
+    <div class="container col-md-auto">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">{{title}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- col-md-9 ms-sm-auto col-lg-10 px-md-4 -->
+        <!-- class="collapse navbar-collapse w-100" -->
+        <!-- <div class="collapse navbar-collapse w-100" id="navbarNav"> -->
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+        </ul>
+        <!-- </div> -->
+    </div>
+    </nav>
+</header>
+
+
+<!-- <div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" [value]="1"> Left (pre-checked)
+  </label>
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" value="middle"> Middle
+  </label>
+  <label ngbButtonLabel class="btn-primary">
+    <input ngbButton type="radio" [value]="false"> Right
+  </label>
+</div>
+<hr>
+<pre>{{model}}</pre> -->
+
+<!-- <button type="button" class="btn btn-primary" id="option1"  (click)="refreshCountries()"(click)="toggleDisabled()" >Primary</button> -->
+
+<!-- <table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">City</th>
+    <th scope="col">Population</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let city of countries">
+    <th scope="row">{{ city.id }}</th>
+    <td>
+      <img [src]="'https://upload.wikimedia.org/wikipedia/commons/' + 'a/a4/Flag_of_the_United_States.svg'" class="mr-2" style="width: 20px">
+      {{ city.name }}
+    </td>
+    <td>{{ city.value | number }}</td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="d-flex justify-content-between p-2">
+  <ngb-pagination [collectionSize]="collectionSize" [(page)]="page"  [maxSize]="5" [pageSize]="pageSize" (pageChange)="refreshCountries()"[rotate]="true" [ellipses]="false" [boundaryLinks]="true" [disabled]='isDisabled' size="sm">
+  </ngb-pagination>
+
+  <select class="custom-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshCountries()" [disabled]='isDisabled' size="sm">
+    <option [ngValue]="17">17 items per page</option>
+    <option [ngValue]="20">20 items per page</option>
+    <option [ngValue]="25">25 items per page</option>
+  </select>
+</div> -->
+
+<!-- <router-outlet></router-outlet> -->
+<!-- <div class="container"> -->
+<!--  -->

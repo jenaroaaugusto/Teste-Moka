@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
 import * as data from './data.json' ;
+
 
 interface Cities {
   id?: number;
@@ -9,12 +9,12 @@ interface Cities {
 }
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-graficos',
+  templateUrl: './graficos.component.html',
+  styleUrls: ['./graficos.component.css']
 })
-export class AppComponent {
-  title = 'Dashboard Moka';
+export class GraficosComponent implements OnInit {
+
   model = 1;
 
   isDisabled = true;

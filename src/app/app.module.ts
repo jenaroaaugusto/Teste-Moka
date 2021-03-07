@@ -1,16 +1,32 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GraficosComponent } from './graficos/graficos.component';
+import { RouterModule } from '@angular/router';
+import { Graficos2Component } from './graficos2/graficos2.component';
+import { BarTopComponent } from './bar-top/bar-top.component';
+// import { NgbdButtonsRadio } from './buttons-radio';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GraficosComponent,
+    Graficos2Component,
+    BarTopComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    NgbModule,
+    RouterModule.forRoot([
+      { path: '', component: GraficosComponent },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
