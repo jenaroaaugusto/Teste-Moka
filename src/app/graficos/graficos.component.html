@@ -1,7 +1,22 @@
-<button type="button" class="btn btn-primary" id="option1"  (click)="refreshCountries()"(click)="toggleDisabled()" >Visualizar</button>
 
+<div class="row justify-content-center" >
+    <button type="button" class="btn btn-primary" id="option1"  (click)="refreshCountries()"(click)="toggleDisabled()" (click)="viewGraf()"  >Visualizar</button>
+</div>
 
-<div>
+<div style="display: block" id="grafico" *ngIf="!isHidden">
+    <canvas 
+        baseChart
+        [chartType]="'bar'"
+        [datasets]="chartData"
+        [labels]="chartLabels"
+        [options]="chartOptions"
+        [legend]="true">
+        
+    </canvas>
+</div>
+
+<!-- [chartType]="barChartType" -->
+<div *ngIf="!isHidden">
     <table class="table table-striped">
         <thead>
         <tr>
@@ -34,3 +49,5 @@
         </select>
     </div>
 </div>
+
+<script src="node_modules/chart.js/src/chart.js"></script>

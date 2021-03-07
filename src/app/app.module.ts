@@ -9,6 +9,7 @@ import { GraficosComponent } from './graficos/graficos.component';
 import { RouterModule } from '@angular/router';
 import { Graficos2Component } from './graficos2/graficos2.component';
 import { BarTopComponent } from './bar-top/bar-top.component';
+import { ChartsModule } from 'ng2-charts';
 // import { NgbdButtonsRadio } from './buttons-radio';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BarTopComponent } from './bar-top/bar-top.component';
     ReactiveFormsModule,
     AppRoutingModule,
     NgbModule,
+    ChartsModule,
     RouterModule.forRoot([
       { path: '', component: GraficosComponent },
     ])
