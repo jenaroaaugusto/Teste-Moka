@@ -3,16 +3,20 @@
     <button type="button" class="btn btn-primary" id="option1"  (click)="refreshCountries()"(click)="toggleDisabled()" (click)="viewGraf()"  >Visualizar</button>
 </div>
 
-<div style="display: block" id="grafico" *ngIf="!isHidden">
-    <canvas 
-        baseChart
-        [chartType]="'bar'"
-        [datasets]="chartData"
-        [labels]="chartLabels"
-        [options]="chartOptions"
-        [legend]="true">
-        
-    </canvas>
+<div class="container" style="display: block" id="grafico" *ngIf="!isHidden">
+    <div class="row">
+        <div class="col">
+            <canvas  
+                baseChart
+                [chartType]="'bar'"
+                [datasets]="chartData"
+                [labels]= "nome_cidades"
+                [options]="chartOptions"
+                [legend]="false">
+                
+            </canvas>
+        </div>
+    </div>
 </div>
 
 <!-- [chartType]="barChartType" -->
