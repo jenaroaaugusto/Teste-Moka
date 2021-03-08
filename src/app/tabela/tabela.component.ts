@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import{PonteService} from'./../ponte.service';
 import { Subscription } from 'rxjs';
 import * as data from './data.json' ;
+
 interface Cities {
   id?: number;
   name: string;
@@ -17,7 +18,9 @@ interface Cities {
 export class TabelaComponent implements OnInit {
   clickEventsubscription:Subscription;
   cidades: any = (data as any).default;
+  // @Input() value!:any;
 
+  // cidades:any = (this.value as any).default;
   constructor( private ponteService:PonteService) { 
       this.clickEventsubscription=this.ponteService.getClickEvent().subscribe(()=>{
       this.viewGraf(), this.refreshCountries();
