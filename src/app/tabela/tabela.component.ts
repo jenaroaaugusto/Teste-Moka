@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import{PonteService} from'./../ponte.service';
+import { Subscription } from 'rxjs';
 import * as data from './data.json' ;
 interface Cities {
   id?: number;
@@ -13,11 +15,16 @@ interface Cities {
   styleUrls: ['./tabela.component.css']
 })
 export class TabelaComponent implements OnInit {
+  clickEventsubscription:Subscription;
   cidades: any = (data as any).default;
 
-  constructor() { }
-
-  isDisabled = true;
+  constructor( private ponteService:PonteService) { 
+      this.clickEventsubscription=this.ponteService.getClickEvent().subscribe(()=>{
+      this.viewGraf(), this.refreshCountries();
+      })
+  }
+  
+  isDisabled = false;
   isHidden= true;
 
   toggleDisabled() {

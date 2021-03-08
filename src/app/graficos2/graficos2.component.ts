@@ -1,4 +1,5 @@
 import { Component, Inject, NgZone, OnInit, PLATFORM_ID } from '@angular/core';
+import{PonteService} from'./../ponte.service';
 
 import * as data from './data.json' ;
 interface Cities {
@@ -25,7 +26,7 @@ export class Graficos2Component implements OnInit {
   cidades: any = (data as any).default;
   private chart!: am4charts.XYChart;
 
-  constructor(@Inject(PLATFORM_ID) private platformId:Object, private zone: NgZone) {}
+  constructor(@Inject(PLATFORM_ID) private platformId:Object, private zone: NgZone, private ponteService:PonteService) {}
 
   // Run the function only in the browser
   browserOnly(f: () => void) {
@@ -96,17 +97,7 @@ export class Graficos2Component implements OnInit {
     this.isHidden = !this.isHidden;
   }
  
-  
-  page = 1;
-  pageSize = 10;
-  collectionSize = this.cidades.length;
-  countries!: Cities[];
 
-  refreshCountries() {
-    this.countries = this.cidades
-      .map((cities: any, i: number) => ({id: i + 1, ...cities}))
-      .slice((this.page - 1) * this.pageSize, (this.page - 1) * this.pageSize + this.pageSize);
-  }
   ngOnDestroy() {
     // Clean up chart when the component is removed
     this.browserOnly(() => {
@@ -119,5 +110,8 @@ export class Graficos2Component implements OnInit {
   ngOnInit(): void {
   
   }
+  clickMe(){
+    this.ponteService.sendClickEvent();
+    }
 
 }

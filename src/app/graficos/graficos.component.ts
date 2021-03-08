@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as data from './data.json' ;
+import{PonteService} from'./../ponte.service';
 
 
 interface Cities {
@@ -16,7 +17,7 @@ interface Cities {
 })
 export class GraficosComponent implements OnInit {
   
-  constructor(){
+  constructor( private ponteService:PonteService){
   }
   products: any = (data as any).default;
 
@@ -70,4 +71,7 @@ export class GraficosComponent implements OnInit {
   ngOnInit(){
  
   }
+  clickMe(){
+    this.ponteService.sendClickEvent();
+    }
 }

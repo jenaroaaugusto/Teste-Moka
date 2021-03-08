@@ -1,8 +1,8 @@
 
 <div class="row justify-content-center" >
-    <button type="button" class="btn btn-primary" id="option1"  (click)="refreshCountries()"(click)="toggleDisabled()" (click)="viewGraf()"  >Visualizar</button>
+    <button type="button" class="btn btn-primary" (click)="clickMe()"(click)="toggleDisabled()" (click)="viewGraf()" >Visualizar</button>
 </div>
-
+<!-- Grafico Charts.js -->
 <div class="container" style="display: block" id="grafico" *ngIf="!isHidden">
     <div class="row">
         <div class="col">
@@ -19,39 +19,8 @@
     </div>
 </div>
 
-<!-- [chartType]="barChartType" -->
-<div *ngIf="!isHidden">
-    <table class="table table-striped">
-        <thead>
-        <tr>
-        <th scope="col">#</th>
-        <th scope="col">Cidades</th>
-        <th scope="col">População</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor="let city of countries">
-        <th scope="row">{{ city.id }}</th>
-        <td>
-            <img [src]="'https://upload.wikimedia.org/wikipedia/commons/' + 'a/a4/Flag_of_the_United_States.svg'" class="mr-2" style="width: 20px">
-            {{ city.name }}
-        </td>
-        <td>{{ city.value | number }}</td>
-        </tr>
-        </tbody>
-    </table>
-    
-    <div class="d-flex justify-content-between p-2">
-        <ngb-pagination [collectionSize]="collectionSize" [(page)]="page"  [maxSize]="5" [pageSize]="pageSize" (pageChange)="refreshCountries()"[rotate]="true" [ellipses]="false" [boundaryLinks]="true" [disabled]='isDisabled' size="sm">
-        </ngb-pagination>
-    
-        <select class="custom-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshCountries()" [disabled]='isDisabled' size="sm">
-            <option [ngValue]="10">10 items por paginas</option>
-            <option [ngValue]="15">17 items por paginas</option>
-            <option [ngValue]="20">20 items por paginas</option>
-            <option [ngValue]="25">25 items por paginas</option>
-        </select>
-    </div>
-</div>
+<!-- Tabela -->
+<app-tabela></app-tabela>
+
 
 <script src="node_modules/chart.js/src/chart.js"></script>
