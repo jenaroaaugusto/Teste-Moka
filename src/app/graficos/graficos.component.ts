@@ -7,10 +7,7 @@ interface Cities {
   name: string;
   value: number;
 }
-interface Dados {
-  data: number[];
-  label: string;
-}
+
 
 @Component({
   selector: 'app-graficos',
@@ -74,7 +71,3 @@ export class GraficosComponent implements OnInit {
  
   }
 }
-function item(item: any, arg1: { return: { cidade: any[]; }; }) {
-  throw new Error('Function not implemented.');
-}
-

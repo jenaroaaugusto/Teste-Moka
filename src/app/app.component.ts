@@ -23,6 +23,7 @@ export class AppComponent {
     this.isDisabled = !this.isDisabled;
   }
 
+  // dados
   products: any = (data as any).default;
   
   page = 1;

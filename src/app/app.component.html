@@ -1,10 +1,9 @@
 
-<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-node_modules\bootstrap\dist\css\bootstrap.min.css -->
+
 <!-- Menu superior -->
 <app-bar-top></app-bar-top>
 
-
+<!-- Barra lateral -->
 <div class="container-fluid">
   <div class="row">
 
@@ -21,61 +20,22 @@ node_modules\bootstrap\dist\css\bootstrap.min.css -->
               </a>
             </li>
           </ul>
-
-          <!-- <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-            <span>Saved reports</span>
-            <a class="link-secondary" href="#" aria-label="Add a new report">
-              <span data-feather="plus-circle"></span>
-            </a>
-          </h6>
-          <ul class="nav flex-column mb-2">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
-                Current month
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
-                Last quarter
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
-                Social engagement
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
-                Year-end sale
-              </a>
-            </li>
-          </ul> -->
         </div>
       </nav>
     </div>
 
-
+    <!-- Abas central -->
     <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="content" >
     
       <ul ngbNav #nav="ngbNav" class="nav-tabs">
         <li ngbNavItem>
-          <a ngbNavLink>Visualização 1 <i class="bi bi-bar-chart-fill"  style="color: green;"></i></a>
+          <a ngbNavLink class="active">Visualização 1 <i class="bi bi-bar-chart-fill"  style="color: green;"></i></a>
           <ng-template ngbNavContent><app-graficos></app-graficos></ng-template>
         </li>
         <li ngbNavItem>
           <a ngbNavLink>Visualização 2 <i class="bi bi-clipboard-data" style="color: red;"></i> </a>
           <ng-template ngbNavContent><app-graficos2></app-graficos2></ng-template>
         </li>
-
-        <li ngbNavItem>
-          <a ngbNavLink>Visualização 2 <i class="bi bi-clipboard-data"></i> </a>
-          <ng-template ngbNavContent><app-graficos2></app-graficos2></ng-template>
-        </li>
-
       </ul>
       <div [ngbNavOutlet]="nav"></div>
     </div>
