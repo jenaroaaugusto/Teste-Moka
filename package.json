@@ -4,11 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod --build-optimizer=false",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +29,7 @@
     "@angular/platform-browser-dynamic": "~11.2.4",
     "@angular/router": "~11.2.4",
     "@ng-bootstrap/ng-bootstrap": "^9.0.2",
+    "@angular-devkit/build-angular": "~0.1102.3",
     "bootstrap": "^5.0.0-beta2",
     "bootstrap-icons": "^1.4.0",
     "chart.js": "^2.9.4",
@@ -60,8 +65,5 @@
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
   },
-  "engines": {
-    "node": "14.15.4",
-    "npm": "6.14.10"
-  }
+ 
 }
