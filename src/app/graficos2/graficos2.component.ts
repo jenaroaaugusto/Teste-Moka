@@ -62,11 +62,31 @@ export class Graficos2Component implements OnInit {
       categoryAxis.fontSize = 11;
       categoryAxis.renderer.labels.template.dy = 5;
 
+      var label = categoryAxis.renderer.labels.template;
+      label.truncate = true;
+      label.maxWidth = 200;
+      label.tooltipText = "name";
+
+      categoryAxis.events.on("sizechanged", function(ev) {
+        let axis = ev.target;
+          var cellWidth = axis.pixelWidth / (axis.endIndex - axis.startIndex);
+          if (cellWidth < axis.renderer.labels.template.maxWidth) {
+            axis.renderer.labels.template.rotation = -45;
+            axis.renderer.labels.template.horizontalCenter = "right";
+            axis.renderer.labels.template.verticalCenter = "middle";
+          }
+          else {
+            axis.renderer.labels.template.rotation = 0;
+            axis.renderer.labels.template.horizontalCenter = "middle";
+            axis.renderer.labels.template.verticalCenter = "top";
+          }
+        });
+
       let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
       valueAxis.min = 0;
       valueAxis.renderer.minGridDistance = 30;
       valueAxis.renderer.baseGrid.disabled = true;
-      // valueAxis.renderer.minWidth = 35;
+  
 
       let series = chart.series.push(new am4charts.ColumnSeries());
       series.dataFields.categoryX  = "name";
@@ -80,9 +100,10 @@ export class Graficos2Component implements OnInit {
       chart.cursor = new am4charts.XYCursor();
 
       let scrollbarX = new am4charts.XYChartScrollbar();
-      scrollbarX.series.push(series);
+      // scrollbarX.series.push(series);
+      // chart.scrollbarX = scrollbarX;
+      scrollbarX.marginBottom = 20;
       chart.scrollbarX = scrollbarX;
-
       this.chart = chart;
     });
   }
